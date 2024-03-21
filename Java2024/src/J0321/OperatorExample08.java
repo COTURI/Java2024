@@ -1,6 +1,6 @@
 package J0321;
 
-public class OperatorExample8 {
+public class OperatorExample08 {
 	public static void main(String[] args) {
 		byte a = 10;
 		int b = 5;

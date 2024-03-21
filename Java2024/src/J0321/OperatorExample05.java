@@ -1,6 +1,6 @@
 package J0321;
 
-public class OperatorExample5 {
+public class OperatorExample05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

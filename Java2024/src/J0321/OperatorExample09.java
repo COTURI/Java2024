@@ -1,6 +1,6 @@
 package J0321;
 
-public class OperatorExample9 {
+public class OperatorExample09 {
 	public static void main(String[] arg) {
 		int v1 = 5;
 		int v2 = 2;
