@@ -1,6 +1,6 @@
 package J0321;
 
-public class T1 {
+public class ByteExamlple {
 
 	public static void main(String[] args) {
 		byte var1 = -128;
