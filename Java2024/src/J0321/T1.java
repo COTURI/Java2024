@@ -8,7 +8,7 @@ public class T1 {
 		byte var3 = 0;
 		byte var4 = 30;
 		byte var5 = 127;
-//		byte var6 = 128; 128Àº byte ¹üÀ§¸¦ ³Ñ¾î°¨
+//		byte var6 = 128; byteëŠ” -128~127 ê¹Œì§€
 
 		System.out.println(var1);
 		System.out.println(var2);
