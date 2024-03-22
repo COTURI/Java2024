@@ -12,7 +12,7 @@ public class IfExample {
 			System.out.println("C");
 		} else if (score >= 60) {
 			System.out.println("D");
-		} else if (score >= 80) {
+		} else if (score >= 50) {
 			System.out.println("F");
 		}
 	}
