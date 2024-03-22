@@ -1,4 +1,4 @@
-package h0322;
+package J0322;
 
 public class StringConcatExample { // Concat == 텍스트 연결
 	public static void main(String[] args) {

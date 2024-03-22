@@ -1,4 +1,4 @@
-package h0322;
+package J0322;
 
 public class CompareOperatorExample {
 	public static void main(String[] arg) {

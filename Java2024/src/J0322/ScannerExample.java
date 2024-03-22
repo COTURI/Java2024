@@ -1,4 +1,4 @@
-package h0322;
+package J0322;
 
 import java.util.Scanner;
 
