@@ -7,7 +7,7 @@ public class AdvForExample {
 
 		int sum = 0;
 		for (int i = 0; i <= 4; i=i+2){
-			sum += scores[i];
+			sum += scores[i]; 
 		}
 		System.out.print("sum : " + sum);
 	}
