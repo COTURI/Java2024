@@ -1,4 +1,4 @@
-package J04034.p7;
+package J0403.p7;
 
 public class Member {
 	public String id;
