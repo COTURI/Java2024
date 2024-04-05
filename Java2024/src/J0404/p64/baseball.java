@@ -1,6 +1,5 @@
 package J0404.p64;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -24,31 +23,38 @@ public class baseball {
 			}
 
 		}
-		for (int b = 0; b < 6; b++) {
-			System.out.print(bbg[b] + " ");
-		}
+	
 
 		int[] answer = new int[3];
-		int str = 0;
-		int ball = 0;
+
 		while (true) {
+			int str = 0;
+			int ball = 0;
 			for (int i = 0; i < answer.length; i++) {
 				answer[i] = sc.nextInt();
 			}
 			System.out.println("Input number...");
 			System.out.println(answer[0] + " " + answer[1] + " " + answer[2]);
 			for (int i = 0; i < answer.length; i++) {
-				if (answer[i] == bbg[i]) {
-					str++;
-				}
-			}
+				for (int j = 0; j < 3; j++)
+					if (answer[i] == bbg[j]) {
+						if (i == j) {
+							str += 1;
+						} else {
+							ball += 1;
+						}
 
-			if (Arrays.equals(answer, bbg)) {
-				System.out.println("strike : 3, ball : 0");
+					}
+			}
+			System.out.println("strike = " + str + " ball = " + ball);
+
+			if (str == 3) {
 				System.out.println("Game Over!!!");
 				break;
-
 			}
+
 		}
+		sc.close();
+
 	}
 }
