@@ -10,7 +10,4 @@ public class Coin {
 	public int getValue() {
 		return won;
 	}
-
-	
-
 }
