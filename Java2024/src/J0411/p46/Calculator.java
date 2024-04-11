@@ -65,12 +65,6 @@ public class Calculator {
 		ban.setLocation(140,170);
 		
 		
-		
-		
-		
-		
-		
-		
 		f.add(tf);
 		f.add(b1);
 		f.add(b2);
