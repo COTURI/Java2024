@@ -24,7 +24,7 @@ public class BoardWithFileInsertExample {
 			pstmt.setString(2, "함박눈이 내려요.");
 			pstmt.setString(3, "winter");
 			pstmt.setString(4, "snow.jpg");
-			pstmt.setBlob(5, new FileInputStream("src/J0419/winter.png"));
+			pstmt.setBlob(5, new FileInputStream("src/J0419/snow.jpg"));
 
 			int rows = pstmt.executeUpdate();
 			System.out.println("저장된 행 수: " + rows);
